@@ -55,6 +55,10 @@ This outputs CSV files to `data_output/` ready for training.
 
 Upload the CSV files to Kaggle and train using the `model_training.ipynb`
 
+[KAGGLE TRAINING PUBLIC CODE LINK](https://www.kaggle.com/code/killianbertsch/deep-learning-chord-recognition)
+
+[KAGGLE PROCESSED DATASET LINK](https://www.kaggle.com/datasets/killianbertsch/chord-audio-features)
+
 ## How It Works
 
 ### Audio Features
