@@ -118,38 +118,6 @@ Performance on full chord classification (root + quality, 40 classes):
 
 Training performed on Kaggle GPU for 20-40 epochs with early stopping.
 
-## Usage Example (Kaggle)
-
-```python
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import GroupShuffleSplit
-
-# Load data
-df = pd.read_csv('../input/your-dataset/hybrid_features.csv')
-
-# Extract features and labels
-X = df.filter(regex='feature_').values
-y = df['root'].map({root: i for i, root in enumerate(
-    ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
-)}).values
-
-# Grouped split (prevents data leakage from augmentation)
-groups = df['id'].str.replace(r'_shift.*', '', regex=True)
-splitter = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
-train_idx, val_idx = next(splitter.split(X, y, groups))
-
-X_train, X_val = X[train_idx], X[val_idx]
-y_train, y_val = y[train_idx], y[val_idx]
-
-# Reshape for CNN (samples, channels, bins, frames)
-n_bins = 36  # For hybrid features
-X_train = X_train.reshape(-1, 1, n_bins, 87)
-X_val = X_val.reshape(-1, 1, n_bins, 87)
-
-# Train your model...
-```
-
 ## Project Structure
 
 ```
@@ -182,12 +150,3 @@ Chord_Recognition/
 - jupyter
 
 See `requirements.txt` for complete list.
-
-## Documentation
-
-- **CLAUDE.md** - Detailed technical documentation
-- **WORKFLOW.md** - Pipeline visualization
-
-## License
-
-Educational project for deep learning coursework.
