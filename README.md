@@ -1,12 +1,17 @@
 # Chord Recognition with CNNs
 
-A deep learning project for recognizing musical chord root notes from audio using Convolutional Neural Networks.
+A deep learning project for recognizing musical chords from audio using Convolutional Neural Networks.
 
 ## Overview
 
-This project trains CNN models to predict the root note of chords from 1-bar audio clips. The model takes audio input and classifies it into one of 12 root notes (C, Db, D, Eb, E, F, Gb, G, Ab, A, Bb, B).
+This project trains CNN models to classify chords from 1-bar audio clips. Two classification tasks are supported:
 
-**Best performance:** 80% validation accuracy on root note classification using Hybrid features.
+1. **Root-only classification:** Predict the chord root note (12 classes: C, Db, D, Eb, E, F, Gb, G, Ab, A, Bb, B)
+2. **Root + Quality classification:** Predict both root and quality (40 classes: combinations of 12 roots × chord types like maj, min, dom, etc.)
+
+**Best performance:**
+- Root-only: 80% validation accuracy (Hybrid features)
+- Root + Quality: 67% validation accuracy (Chroma features)
 
 ## Quick Start
 
