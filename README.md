@@ -1,5 +1,5 @@
 
-# **Improtant Details For Grading!**
+# **Important Details For Grading!**
 
 **Preprocessed-Data**
 
