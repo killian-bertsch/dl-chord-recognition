@@ -3,7 +3,7 @@
 
 **Preprocessed-Data**
 
-*If you'd like to try the data preprocessing pipeline, please add the data_input & data_output directories found in the canvas zip file to the repo after you've pulled it*
+*If you'd like to try the data preprocessing pipeline, please add the data_input & data_output directories found in the canvas zip file to the repo after you've cloned it*
 
 [Training Example (Public Kaggle)](https://www.kaggle.com/code/killianbertsch/deep-learning-chord-recognition) ~ *Kaggle Session that was used for training*
 
