@@ -53,7 +53,7 @@ This outputs CSV files to `data_output/` ready for training.
 
 ### 4. Train on Kaggle
 
-Upload the CSV files to Kaggle and train using the provided notebook template.
+Upload the CSV files to Kaggle and train using the 'model_training.ipynb' file
 
 ## How It Works
 
