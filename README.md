@@ -9,6 +9,8 @@
 
 [Processed Dataset (Public Kaggle)](https://www.kaggle.com/datasets/killianbertsch/chord-audio-features) ~ *Kaggle Dataset that was used for training*
 
+[Project Demo Video](https://www.youtube.com/watch?v=pbyjpNJn-3E)
+
 # Chord Recognition with CNNs
 
 A deep learning project for recognizing musical chords from audio using Convolutional Neural Networks.
