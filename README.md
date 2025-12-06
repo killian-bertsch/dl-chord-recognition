@@ -1,6 +1,3 @@
-# Chord Recognition with CNNs
-
-A deep learning project for recognizing musical chords from audio using Convolutional Neural Networks.
 
 **Important Links**
 
@@ -10,6 +7,9 @@ A deep learning project for recognizing musical chords from audio using Convolut
 
 [Processed Dataset (Public Kaggle)](https://www.kaggle.com/datasets/killianbertsch/chord-audio-features)
 
+# Chord Recognition with CNNs
+
+A deep learning project for recognizing musical chords from audio using Convolutional Neural Networks.
 
 ## Overview
 
