@@ -1,11 +1,13 @@
 
-**Important Links**
+# **Improtant Details For Grading!**
 
-[Preprocessed-Data(Google Drive)]()
+**Preprocessed-Data**
 
-[Training Example (Public Kaggle)](https://www.kaggle.com/code/killianbertsch/deep-learning-chord-recognition)
+*If you'd like to try the data preprocessing pipeline, please add the data_input & data_output directories found in the canvas zip file to the repo after you've pulled it*
 
-[Processed Dataset (Public Kaggle)](https://www.kaggle.com/datasets/killianbertsch/chord-audio-features)
+[Training Example (Public Kaggle)](https://www.kaggle.com/code/killianbertsch/deep-learning-chord-recognition) ~ *Kaggle Session that was used for training*
+
+[Processed Dataset (Public Kaggle)](https://www.kaggle.com/datasets/killianbertsch/chord-audio-features) ~ *Kaggle Dataset that was used for training*
 
 # Chord Recognition with CNNs
 
