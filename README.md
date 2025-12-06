@@ -2,6 +2,13 @@
 
 A deep learning project for recognizing musical chords from audio using Convolutional Neural Networks.
 
+[PREPROCESSED DATA GOOGLE DRIVE LINK]()
+
+[KAGGLE TRAINING PUBLIC CODE LINK](https://www.kaggle.com/code/killianbertsch/deep-learning-chord-recognition)
+
+[KAGGLE PROCESSED DATASET LINK](https://www.kaggle.com/datasets/killianbertsch/chord-audio-features)
+
+
 ## Overview
 
 This project trains CNN models to classify chords from 1-bar audio clips. Two classification tasks are supported:
